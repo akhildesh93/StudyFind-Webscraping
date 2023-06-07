@@ -4,8 +4,8 @@ The GCP engine writes splitted csv files on 1,200,000+ pages of data.
 
 propublica-scraper.py:
 - processes txt files of propublica page id's
-- allows for pausing and resuming of csv writing
-- methods to extract financial data and classifications
+- allows for pausing and resuming 
+- extracts financial data and classifications
 - uses Python's BeautifulSoup library
 - delays requests to prevent page blocking
 - monitors for HTTP error status codes (eg. 404, 403)
