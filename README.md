@@ -7,10 +7,14 @@ propublica-scraper.py:
 - allows for pausing and resuming of csv writing
 - methods to extract financial data and classifications
 - uses Python's BeautifulSoup library
+- delays requests to prevent page blocking
+- monitors for HTTP error status codes (eg. 404, 403)
 
 shortlist.txt:
-- a txt file containing the first 10000 out of 1.2 million page ids to scrape
+- a file containing the first 10000 out of 1.2 million page ids to scrape
+- in the engine, the program is fed a folder of splitted txt files
 
 revenues.csv:
 - a showcase of the program's output
+- in the engine, the program creates splitted revenues.csv files 
 
