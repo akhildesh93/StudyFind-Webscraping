@@ -165,7 +165,7 @@ def process_txt_file(file_path):
 
     csv_file.close()
 
-def process_split_files():
+def main():
     """
     Processes all split TXT files in the folder and generates CSV files with the extracted information.
     """
@@ -186,5 +186,7 @@ def process_split_files():
         file_name = f"propublica_split_{file_id}.txt"
         file_path = os.path.join(folder_path, file_name)
         process_txt_file(file_path)
+        
 
-process_split_files()
+if __name__ == "__main__":
+    main()
