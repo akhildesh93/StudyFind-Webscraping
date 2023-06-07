@@ -1,6 +1,6 @@
 This project runs on Google Cloud Platform's Compute Engine remotely.
 Each webpage access has a delay of 3-5 seconds to prevent page blocking, so it must be ran remotely.
-For 1,000,000 pages, it takes 1-2 months to run due to time constraint.
+The GCP engine writes splitted csv files on 1,200,000+ pages of data.
 
 propublica-scraper.py:
 - processes txt files of propublica page id's
